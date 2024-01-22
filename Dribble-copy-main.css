@@ -16,7 +16,7 @@ header {
 	justify-content: space-between;
 	align-content: center;
 	align-items: center;
-	padding: 1.5em;
+	padding: 0.5em 1.5em 0.5em 1.5em;
 }
 
 .nav-left , .nav-right  {
@@ -39,8 +39,8 @@ header {
 }
 
 .logo img{
-	height: 75px;
-	width: 100px;
+	height: 100px;
+	width: 120px;
 }
 
 .search img {
@@ -53,5 +53,76 @@ header {
 	width: 40px;
 	border-radius: 50px;
 }
+
+/*section search*/
+
+.background-gradient {
+	background: rgb(193,255,255);
+	background: linear-gradient(90deg, 
+				rgba(193,255,255,0.6363139005602241) 0%, 
+				rgba(206,175,252,0.5970982142857143) 53%, 
+				rgba(228,188,231,0.5606836484593838) 90%);
+
+	height: 100px;
+	width: 100%;
+	position: relative;
+}
+
+.search-banner {
+	height: 75px;
+	width: 86%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: #FFFFFF;	
+	position: absolute;	
+	box-shadow: 0px 0px 25px 1px #C1C1C1;
+	border-radius: 10px;
+	top: 65%;
+	left: 7%;
+	right: 7%;
+	
+}
+
+input {
+	border: none;
+	font-weight: 400;
+	font-family: Roboto;
+	font-size: 18px;
+
+}
+
+.serch-glass {
+	width: 18px;
+	height: 18px;
+	color: grey;
+	padding: 2em;
+	
+}
+
+/*.vertical-line {
+	width: 18px;
+	height: 18px;
+	color: grey;
+	z-index: 1;
+	
+}*/
+/*input::before {
+	content: url(Dribble_assets/heroicons-solid/magnifying-glass.svg);
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
