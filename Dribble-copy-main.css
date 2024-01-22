@@ -1,0 +1,57 @@
+/*Dribble-copy-main.css*/
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+img {
+	height: 50px;
+	width: 50px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	padding: 1.5em;
+}
+
+.nav-left , .nav-right  {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1.25em;
+
+
+}
+
+/*.nav-right {
+	display: flex;
+	
+}*/
+
+.menu img {
+	height: 30px;
+	width: 30px;
+}
+
+.logo img{
+	height: 75px;
+	width: 100px;
+}
+
+.search img {
+	height: 24px;
+	width: 24px;
+}
+
+.profile img {
+	height: 40px;
+	width: 40px;
+	border-radius: 50px;
+}
+
+
