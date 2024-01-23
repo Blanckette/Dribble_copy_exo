@@ -6,6 +6,11 @@
 	font-family: Roboto;
 }
 
+body {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
 
 img {
 	height: 50px;
@@ -17,7 +22,7 @@ header {
 	justify-content: space-between;
 	align-content: center;
 	align-items: center;
-	padding: 0.5em 1.5em 0.5em 1.5em;
+/*	padding: 0.5em 1.5em 0.5em 1.5em;*/
 }
 
 .nav-left , .nav-right  {
@@ -53,6 +58,7 @@ header {
 	height: 40px;
 	width: 40px;
 	border-radius: 50px;
+	padding: 10px;
 }
 
 /*section search*/
@@ -65,13 +71,15 @@ header {
 				rgba(228,188,231,0.5606836484593838) 90%);
 
 	height: 100px;
-	width: 100%;
+	width: 100vw;
 	position: relative;
+	margin-left: -1rem;
+	margin-right: -1rem;
 }
 
 .search-banner {
 	height: 75px;
-	width: 86%;
+	width: 95%;
 	background-color: white;
 	display: flex;
 	align-items: center;
@@ -81,8 +89,8 @@ header {
 	box-shadow: 0px 0px 25px 1px #C1C1C1;
 	border-radius: 10px;
 	top: 65%;
-	left: 7%;
-	right: 7%;
+	left: 2%;
+	right: 2%;
 	
 }
 
@@ -136,7 +144,7 @@ input {
 
 .presentation {
 	margin-top: 5rem;
-	padding: 0 3rem 0 3rem;
+/*	padding: 0 3rem 0 3rem;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -147,6 +155,7 @@ input {
 
 .presentation p{
 	color: grey;
+	line-height: 2em;
 }
 
 /*Filters*/
@@ -154,7 +163,7 @@ input {
 .filters {
 	display: flex;
 	justify-content: space-between;
-	margin: 2rem;
+	margin: 2rem 0 2rem 0;
 
 }
 
@@ -204,10 +213,91 @@ input {
 
 .horizontal-line {
 	border: 0.5px solid #e3e3e3;
-	margin: 0 0.25rem 0 0.25rem;
+	
 }
 
+.project-type {
+	display: flex;
+	justify-content: space-between;
+	margin: 2em 0 2em 0;
+	font-weight: 600;
+}
 
+.project-type p:hover {
+	color: grey;
+}
+
+.project img {
+	width: 100%;
+	height: 25rem;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.project-left img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+}
+
+.project {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2.5rem;
+}
+
+.project-left {
+	display: flex;
+	align-self: flex-start;
+	align-items: center;
+	gap: 0.5em;
+}
+
+.name {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.project-left p {
+	background-color: grey;
+	height: 1rem;
+	width: 2rem;
+	font-size: 12px;
+	text-align: center;
+	line-height: 1.5em;
+	font-weight: 600;
+	color: white;
+	border-radius: 2px;
+
+}
+
+.project-right {
+	display: flex;
+	justify-content: flex-end;
+	gap: 0.5rem;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.author {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5em;
+}
+
+.svg-heart , .svg-eye {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.likes , .vues {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 
 
