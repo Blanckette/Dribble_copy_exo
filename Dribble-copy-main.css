@@ -9,8 +9,13 @@
 body {
 	margin-left: 1rem;
 	margin-right: 1rem;
+	position: relative;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
 
 img {
 	height: 50px;
@@ -223,13 +228,13 @@ input {
 	font-weight: 600;
 }
 
-.project-type p:hover {
+.project-type a:hover {
 	color: grey;
 }
 
 .project img {
 	width: 100%;
-	height: 25rem;
+	height: 23rem;
 	object-fit: cover;
 	border-radius: 10px;
 }
@@ -273,6 +278,10 @@ input {
 
 }
 
+.project-left p:hover {
+	background-color: black;
+}
+
 .project-right {
 	display: flex;
 	justify-content: flex-end;
@@ -293,11 +302,90 @@ input {
 	height: 1.5rem;
 }
 
+.svg-heart svg:hover {
+	fill: lightpink;
+}
+
 .likes , .vues {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
+.loading {
+	display: flex;
+	justify-content: center;
+
+}
+
+.loading a{
+	background-color: #e3e3e3;
+	height: 3rem;
+	width: 8rem;
+	text-align: center;
+	line-height: 3rem;
+	border-radius: 25px;
+	font-size: 14px;
+	font-weight: 500;
 
 
+}
+
+.sticky-arrow {
+	display: flex;
+	justify-content: flex-end;
+	position: sticky;
+	bottom: 2rem;
+}
+.arrow-up {
+	background-color: grey;
+	height: 3rem;
+	width: 3rem;
+	border-radius: 50px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	
+}
+
+.arrow-up svg {
+	height: 1.5rem;
+	width: 1.5rem;
+	align-self: center;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.links , .links-dribble{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+	text-align: center;
+	font-weight: 500;
+
+}
+
+.social-media img {
+	width: 1.3rem;
+	height: 1.3rem;
+	padding: 0.5rem;
+	margin-top: 1rem;
+	margin-bottom: 5rem;
+
+}
+.links-dribble{
+	flex-wrap: wrap-reverse;
+}
+
+.links-dribble p , .links-dribble a{
+	color: grey;
+	font-weight: 300;
+
+}
