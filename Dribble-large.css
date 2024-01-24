@@ -1,0 +1,62 @@
+/*Dribble-large.css*/
+
+@media screen and (min-width: 1024px) {
+
+body {
+	margin-left: 3rem;
+	margin-right: 3rem;
+	position: relative;
+	margin-bottom: 3rem;
+}
+
+.search {
+	background-color: #f4f5fb;
+	height: 3rem;
+	width: 12rem;
+	position: relative;
+	border-radius: 25px;
+}
+
+.search input {
+	display: inline-block;
+	border: none;
+	position: absolute;
+	top: 25%;
+	right: 5%;
+	width: 75%;
+	background-color: #f4f5fb;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	font-weight: 300;
+	color: black;
+}
+
+.search img {
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	top: 25%;
+	left: 5%;
+}
+
+.background-gradient {
+	width: width: calc(100vw - 3rem);
+	margin-left: -3rem;
+}
+
+.project-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+	gap: 2rem;
+
+}
+
+.search-banner {
+	max-width: 40rem;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+}

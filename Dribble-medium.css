@@ -1,0 +1,30 @@
+/*Dribble-medium.css*/
+
+@media screen and (min-width: 768px) {
+
+.project-list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: auto;
+	gap: 2rem;
+
+}
+
+.links-dribble{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*media end closing	*/
+}
+
+
