@@ -9,6 +9,43 @@ body {
 	margin-bottom: 3rem;
 }
 
+header {
+	margin: 1rem 0 1rem 0;
+}
+
+.menu {
+	display: none;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	font-weight: 500;
+	font-size: 14px;
+
+}
+
+nav :hover {
+	color: grey;
+}
+
+.logo {
+	display: none;
+}
+
+.logo-middle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-middle img {
+	height: 5.5rem;
+	width: 15rem;
+}
+
 .search {
 	background-color: #f4f5fb;
 	height: 3rem;
@@ -59,4 +96,40 @@ body {
 	right: 0;
 	margin: auto;
 }
+
+.discover-projects {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1.5rem;
+	font-weight: 500;
+}
+
+.discover-projects :hover {
+	color: grey;
+}
+
+.carousel {
+	display: none;
+}
+
+.first-line {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 14px;
+
+}
+
+.links {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.links-dribble {
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 }
