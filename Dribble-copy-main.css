@@ -221,8 +221,11 @@ input {
 	align-items: center;
 	justify-content: center;
 	gap: 1em;
-	animation-name: bounce;
 
+}
+
+.Popular:active {
+	animation-name: bounce;
 }
 
 .Popular p{
