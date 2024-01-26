@@ -13,6 +13,10 @@ body {
 	margin-bottom: 3rem;
 }
 
+p, a::selection {
+	background: #ffedbe;
+}
+
 a {
 	text-decoration: none;
 	color: black;
@@ -66,6 +70,7 @@ nav {
 .search img {
 	height: 24px;
 	width: 24px;
+	padding: 1% 3% 1% 3%;
 }
 
 .search input {
@@ -97,11 +102,13 @@ nav {
 	width: calc(100vw - 1rem);
 	position: relative;
 	margin-left: -1rem;
+
 }
 
 .search-banner {
 	height: 75px;
-	width: 95%;
+	width: 93%;
+	max-width: 632px;
 	background-color: white;
 	display: flex;
 	align-items: center;
@@ -110,9 +117,10 @@ nav {
 	position: absolute;	
 	box-shadow: 0px 0px 25px 1px #C1C1C1;
 	border-radius: 10px;
-	top: 55%;
-	left: 2%;
-	right: 2%;
+	top: 60%;
+	left: 0;
+	right: 0;
+	margin: auto;
 	
 }
 
@@ -213,6 +221,7 @@ input {
 	align-items: center;
 	justify-content: center;
 	gap: 1em;
+	animation-name: bounce;
 
 }
 
@@ -293,40 +302,45 @@ input {
 	align-items: flex-end;
 	justify-content: space-between;
 	align-content: center;
-	box-shadow: inset 0px -100px 98px -36px rgba(43, 43, 43, 1);	
+/*	background-color: rgba(89, 131, 252, 0);
+	background-color: rgba(89, 131, 252, 0);*/
+	background-image: linear-gradient(180deg, rgba(89, 131, 252, 0) 41%, rgba(0, 0, 0, 0.68) 100%);
+/*	box-shadow: inset 0px -100px 98px -36px rgba(43, 43, 43, 1);	*/
 	opacity: 0;
 /*	z-index: 1;*/
 }
 
-.mark {
-	height: 1.5em;
-	width: 1.5em;
+.mark , .like {
+	height: 5%;
+	width: auto;
+	aspect-ratio: 1/1;
 	background-color: white;
 	border-radius: 50%;
-	padding: 10px;
-	margin: 0.5rem;
+	padding: 2.5%;
+	margin: 0 5% 5% 0;
 
 }
 
-.like {
+/*.like {
 	height: 25px;
 	width: 25px;
 	background-color: white;
 	border-radius: 50px;
 	padding: 10px;
 	margin: 0.5rem;
-}
+}*/
 
 .mark :hover , .like :hover {
 	stroke: grey;
 }
 
 .hover a{
-	margin: 1.5rem;
+	margin: 0 0 5% 5%;
 	font-weight: 500;
 	color: white;
 	display: flex;
 	flex-grow: 8;
+	font-size: 130%;
 }
 
 .project-left img {
@@ -450,6 +464,19 @@ input {
 	align-self: center;
 }
 
+footer{
+	display: flex;
+	justify-content: center;
+}
+
+.botom-page {
+	max-width: 1225px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
 .first-line {
 	display: flex;
 	flex-direction: column;
@@ -462,6 +489,7 @@ input {
 .logo-footer img{
 	height: 100px;
 	width: 120px;
+	display: flex;
 }
 
 .links {
