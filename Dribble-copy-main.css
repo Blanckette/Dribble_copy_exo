@@ -13,7 +13,7 @@ body {
 	margin-bottom: 3rem;
 }
 
-p, a::selection {
+p::selection , a::selection {
 	background: #ffedbe;
 }
 
