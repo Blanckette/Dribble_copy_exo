@@ -1,0 +1,137 @@
+/*Dribble-large.css*/
+
+@media screen and (min-width: 1024px) {
+
+body {
+	margin-left: 3rem;
+	margin-right: 3rem;
+	position: relative;
+	margin-bottom: 3rem;
+}
+
+header {
+	margin: 1rem 0 1rem 0;
+}
+
+.menu {
+	display: none;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	font-weight: 500;
+	font-size: 14px;
+
+}
+
+nav :hover {
+	color: grey;
+}
+
+.logo {
+	display: none;
+}
+
+.logo-middle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-middle img {
+	height: 5.5rem;
+	width: 15rem;
+}
+
+.search {
+	background-color: #f4f5fb;
+	height: 3rem;
+	width: 15rem;
+	position: relative;
+	border-radius: 25px;
+}
+
+.search input {
+	display: inline-block;
+	border: none;
+	position: absolute;
+	top: 30%;
+	right: 0;
+	width: 75%;
+	background-color: #f4f5fb;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	font-weight: 300;
+	font-size: 16px;
+	color: black;
+	color: black;
+}
+
+.search img {
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	top: 25%;
+	left: 5%;
+}
+
+.background-gradient {
+	width: calc(100vw - 1rem);
+	margin-left: -3rem;
+}
+
+.project-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+	gap: 2rem;
+
+}
+
+.search-banner {
+	max-width: 40rem;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.discover-projects {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1.5rem;
+	font-weight: 500;
+}
+
+.discover-projects :hover {
+	color: grey;
+}
+
+.carousel {
+	display: none;
+}
+
+.first-line {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 14px;
+
+}
+
+.links {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.links-dribble {
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+}

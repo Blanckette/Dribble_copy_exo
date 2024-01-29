@@ -1,0 +1,18 @@
+/*Dribble-x-large.css*/
+
+@media screen and (min-width: 1280px) {
+
+.background-gradient {
+	height: 80px;
+}
+
+.project-list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto;
+	gap: 2rem;
+
+}
+
+
+}
