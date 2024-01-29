@@ -37,14 +37,13 @@ header {
   justify-content: space-between;
   align-content: center;
   align-items: center;
-  /*padding: 0.5em 1.5em 0.5em 1.5em;*/
 
-  @media screen and (min-width: 1024px){
+  @media screen and (min-width: 1024px) {
     margin: 1rem 0 1rem 0;
   }
 }
 
-.nav-left , .nav-right  {
+.nav-left , .nav-right {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,7 +53,7 @@ header {
 nav {
   display: none;
 
-  @media screen and (min-width: 1024px){
+  @media screen and (min-width: 1024px) {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,8 +63,8 @@ nav {
   }
 
   & :hover {
-    @media screen and (min-width: 1024px){
-    color: grey;
+    @media screen and (min-width: 1024px) {
+      color: grey;
     }
   }
 }
@@ -73,10 +72,10 @@ nav {
 .logo-middle {
   display: none;
 
-  @media screen and (min-width: 1024px){
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   & img {
@@ -93,8 +92,8 @@ nav {
     width: 120px;
   }
 
-  @media screen and (min-width: 1024px){
-  display: none;
+  @media screen and (min-width: 1024px) {
+    display: none;
   }
 }
 
@@ -104,8 +103,8 @@ nav {
     width: 30px;
   }
 
-  @media screen and (min-width: 1024px){
-  display: none;
+  @media screen and (min-width: 1024px) {
+    display: none;
   }
 }
 
@@ -113,7 +112,7 @@ nav {
   margin: 0;
   padding: 0;
 
-  @media screen and (min-width: 1024px){
+  @media screen and (min-width: 1024px) {
     background-color: #f4f5fb;
     height: 3rem;
     width: 15rem;
@@ -126,7 +125,7 @@ nav {
       width: 24px;
       padding: 1% 3% 1% 3%;
 
-      @media screen and (min-width: 1024px){
+      @media screen and (min-width: 1024px) {
         height: 20px;
         width: 20px;
         position: absolute;
@@ -138,7 +137,7 @@ nav {
     & input {
       display: none;
 
-      @media screen and (min-width: 1024px){
+      @media screen and (min-width: 1024px) {
         display: inline-block;
         border: none;
         position: absolute;
@@ -207,7 +206,7 @@ nav {
   right: 0;
   margin: auto;
 
-  @media screen and (min-width: 1024px){
+  @media screen and (min-width: 1024px) {
     max-width: 40rem;
     left: 0;
     right: 0;
@@ -260,10 +259,11 @@ input {
   justify-content: center;
   align-items: center;
   gap: 1.5em;
-    & p {
-      color: grey;
-      line-height: 2em;
-    }
+
+  & p {
+    color: grey;
+    line-height: 2em;
+  }
 }
 
 .Related {
@@ -271,9 +271,10 @@ input {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-    & a:hover {
-      color: grey;
-    }
+
+  & a:hover {
+    color: grey;
+  }
 }
 
 /*Filters*/
@@ -295,10 +296,11 @@ input {
   align-items: center;
   justify-content: center;
   gap: 1em;
-    & p {
-      font-weight: 500;
-      font-size: 14px;
-    }
+
+  & p {
+    font-weight: 500;
+    font-size: 14px;
+  }
 }
 
 .Popular:active {
@@ -316,10 +318,11 @@ input {
   align-items: center;
   justify-content: center;
   gap: 1em;
-    & p {
-      font-weight: 500;
-      font-size: 14px;
-    }
+
+  & p {
+    font-weight: 500;
+    font-size: 14px;
+  }
 }
 
 .filter-list {
@@ -336,12 +339,12 @@ input {
     gap: 1.5rem;
     font-weight: 500;
   }
-    & :hover {
 
-      @media screen and (min-width: 1024px){
-        color: grey;
-      }
+  & :hover {
+    @media screen and (min-width: 1024px){
+      color: grey;
     }
+  }
 }
 
 /*section carousel*/
@@ -374,13 +377,14 @@ input {
   align-items: center;
   margin-bottom: 2.5rem;
   position: relative;
-    & img {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-      border-radius: 10px;
-      aspect-ratio: 4/3;
-    }
+
+  & img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    aspect-ratio: 4/3;
+  }
 }
 
 .hover {
@@ -397,17 +401,19 @@ input {
   background-image: linear-gradient(180deg, rgba(89, 131, 252, 0) 41%,
                     rgba(0, 0, 0, 0.68) 100%);
   opacity: 0;
-    &:hover {
-      opacity: 1;
-    }
-    & a {
-      margin: 0 0 5% 5%;
-      font-weight: 500;
-      color: white;
-      display: flex;
-      flex-grow: 8;
-      font-size: 130%;
-    }
+
+  &:hover {
+    opacity: 1;
+  }
+
+  & a {
+    margin: 0 0 5% 5%;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    flex-grow: 8;
+    font-size: 130%;
+  }
 }
 
 .mark , .like {
@@ -418,9 +424,10 @@ input {
   border-radius: 50%;
   padding: 2.5%;
   margin: 0 5% 5% 0;
-    & :hover {
-      stroke: grey;
-    }
+
+  & :hover {
+    stroke: grey;
+  }
 }
 
 /*.like {
@@ -433,15 +440,14 @@ input {
 }*/
 
 .project-list {
-
-  @media screen and (min-width: 768px){
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  gap: 2rem;
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
   }
 
-  @media screen and (min-width: 1024px){
+  @media screen and (min-width: 1024px) {
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -463,26 +469,28 @@ input {
   align-self: flex-start;
   align-items: center;
   gap: 0.5em;
-    & img {
-      width: 30px;
-      height: 30px;
-      border-radius: 50px;
-    }
 
-    & p {
-      background-color: grey;
-      height: 1rem;
-      width: 2rem;
-      font-size: 12px;
-      text-align: center;
-      line-height: 1.5em;
-      font-weight: 600;
-      color: white;
-      border-radius: 2px;
-        &:hover {
-          background-color: black;
-        }
+  & img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+  }
+
+  & p {
+    background-color: grey;
+    height: 1rem;
+    width: 2rem;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.5em;
+    font-weight: 600;
+    color: white;
+    border-radius: 2px;
+
+    &:hover {
+      background-color: black;
     }
+  }
 }
 
 .name {
@@ -523,16 +531,17 @@ input {
 .loading {
   display: flex;
   justify-content: center;
-    & a {
-      background-color: #e3e3e3;
-      height: 3rem;
-      width: 8rem;
-      text-align: center;
-      line-height: 3rem;
-      border-radius: 25px;
-      font-size: 14px;
-      font-weight: 500;
-    }
+
+  & a {
+    background-color: #e3e3e3;
+    height: 3rem;
+    width: 8rem;
+    text-align: center;
+    line-height: 3rem;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+  }
 }
 
 .sticky-arrow {
@@ -550,17 +559,19 @@ input {
   display: flex;
   align-content: center;
   justify-content: center;
-    & svg {
-      height: 1.5rem;
-      width: 1.5rem;
-      align-self: center;
-    }
-    &:hover {
-      background-color: grey;
-    }
+
+  & svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    align-self: center;
+  }
+
+  &:hover {
+    background-color: grey;
+  }
 }
 
-footer{
+footer {
   display: flex;
   justify-content: center;
 }
@@ -588,7 +599,7 @@ footer{
   }
 }
 
-.logo-footer img{
+.logo-footer img {
   height: 100px;
   width: 120px;
   display: flex;
@@ -603,7 +614,7 @@ footer{
   text-align: center;
   font-weight: 500;
 
-  @media screen and (min-width: 1024px){
+  @media screen and (min-width: 1024px) {
     display: flex;
     justify-content: space-evenly;
   }
@@ -627,11 +638,12 @@ footer{
     justify-content: center;
   }
 
-  @media screen and (min-width: 1024px){
+  @media screen and (min-width: 1024px) {
     flex-direction: row;
     justify-content: space-between;
   }
-  & p , & a{
+
+  & p , & a {
     color: grey;
     font-weight: 400
   }
